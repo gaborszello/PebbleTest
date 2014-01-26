@@ -1,18 +1,25 @@
 {
-    "versionLabel": "1.0",
+    "versionLabel": "1.1",
     "uuid": "16dff622-8b8d-427f-b14c-74a5322acf27",
     "appKeys": {},
-    "longName": "Teszt App",
-    "versionCode": 1,
+    "longName": "Pubble",
+    "versionCode": 2,
     "capabilities": [
         ""
     ],
-    "shortName": "Teszt App",
+    "shortName": "Pubble",
     "companyName": "heloplan",
     "watchapp": {
         "watchface": false
     },
     "resources": {
-        "media": []
+        "media": [
+            {
+                "menuIcon": true,
+                "type": "png",
+                "name": "MENU_ICON",
+                "file": "images/icon.png"
+            }
+        ]
     }
 }

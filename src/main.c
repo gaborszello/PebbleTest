@@ -10,7 +10,7 @@ void window_load(Window *my_window) {
 	text_layer_set_text_color(my_text_layer, GColorBlack);
  
 	layer_add_child(window_get_root_layer(my_window), (Layer*) my_text_layer);
-	text_layer_set_text(my_text_layer, "Ez az első appom, fuckyeah!");
+	text_layer_set_text(my_text_layer, "Mit igyak?");
 }
 
 void window_unload(Window *my_window) {
