@@ -8,7 +8,7 @@ void select_click_handler(ClickRecognizerRef recognizer, void *context) {
 		int pia = rand() % 4;
 		if(pia == 0)
                 text_layer_set_text(my_text_layer, "SÖRT");
-        else if(pia == 1)
+		else if(pia == 1)
                 text_layer_set_text(my_text_layer, "BORT");
 		else if(pia == 2)
                 text_layer_set_text(my_text_layer, "PÁLINKÁT");
