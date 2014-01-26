@@ -1,0 +1,18 @@
+{
+    "versionLabel": "1.0",
+    "uuid": "16dff622-8b8d-427f-b14c-74a5322acf27",
+    "appKeys": {},
+    "longName": "Teszt App",
+    "versionCode": 1,
+    "capabilities": [
+        ""
+    ],
+    "shortName": "Teszt App",
+    "companyName": "heloplan",
+    "watchapp": {
+        "watchface": false
+    },
+    "resources": {
+        "media": []
+    }
+}
