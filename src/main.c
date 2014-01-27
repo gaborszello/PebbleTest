@@ -24,9 +24,9 @@ void click_config_provider(void *context) {
 
 void window_load(Window *my_window) {
 	// Itt adunk tartalmat az ablaknak.
-	my_text_layer = text_layer_create(GRect(0, 55, 144, 168));
-	text_layer_set_background_color(my_text_layer, GColorClear);
-	text_layer_set_text_color(my_text_layer, GColorBlack);
+	my_text_layer = text_layer_create(GRect(0, 55, 144, 38));
+	text_layer_set_background_color(my_text_layer, GColorBlack);
+	text_layer_set_text_color(my_text_layer, GColorWhite);
 	text_layer_set_text_alignment(my_text_layer, GTextAlignmentCenter);
 	text_layer_set_font(my_text_layer, fonts_get_system_font(FONT_KEY_GOTHIC_28_BOLD));
 
